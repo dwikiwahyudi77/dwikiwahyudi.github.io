@@ -1,0 +1,258 @@
+/* Awal percobaan API Ke-2 */
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    color: #fdfcfe;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+body {
+    height: 100%;
+    /* background: linear-gradient(to bottom, #4f3565, #3e2a4f); */
+    background-color: #1f1f1f;
+}
+
+/*  */
+.skeleton-bg {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(216, 216, 216);
+}
+
+.skeleton-title {
+    width: 60%;
+    height: 1.5rem;
+    background-color: rgb(202, 202, 202);
+    border-radius: 100px;
+}
+.skeleton-title-2 {
+    width: 40%;
+    height: 1.5rem;
+    background-color: rgb(202, 202, 202);
+    border-radius: 100px;
+}
+.skeleton-title-3 {
+    width: 20%;
+    height: 1.5rem;
+    background-color: rgb(202, 202, 202);
+    border-radius: 100px;
+}
+/*  */
+
+.menu {
+    width: 100vw;
+    /* height: 100vh; */
+    padding: 1em;
+    background-color: #131313;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    top: 3.5rem;
+    left: -100em;
+    z-index: 99;
+}
+
+.menu-link {
+    margin-bottom: 1em;
+    /* border: 1px solid red; */
+    display: inline-block;
+}
+
+.icon {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.icon:hover {
+    opacity: 0.4;
+}
+
+header {
+    width: 100%;
+    padding: 0 1rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header h3 {
+    font-weight: 500;
+}
+
+.jumbotron {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 1.5rem;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.jumbo-content {
+    min-width: 100%;
+    scroll-snap-align: start;
+    display: block;
+    position: relative;
+}
+
+.jumbo-content::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #282828, #00000000);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.jumbo-content .slider-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.jumbo-content p {
+    width: 90%;
+    font-size: 1.3rem;
+    bottom: 1rem;
+    left: 1rem;
+    position: absolute;
+}
+
+.slider-box {
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+}
+
+.slider-heading {
+    width: 100%;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a.more {
+    color: #9881ae;
+    font-weight: 300;
+}
+
+.title-top {
+    color: #9881ae;
+    /* margin-bottom: 1rem; */
+    font-weight: 600;
+}
+
+.card-wrapper {
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 1rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.card {
+    width: 100%;
+    min-width: 280px;
+    max-width: 280px;
+    scroll-snap-align: start;
+}
+
+.inner-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    color: #d0c4eb;
+    margin: 0.5rem 0;
+    font-weight: 500;
+    line-height: 1.2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.gendre,
+.update {
+    color: #77658b;
+    font-size: 0.8rem;
+}
+
+.card-image {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.card-image img {
+    position: absolute;
+    z-index: -1;
+}
+
+.card-image::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #00000040;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+p.chapter {
+    padding: 0.2rem 1rem;
+    background-color: rgba(172, 255, 47, 0.344);
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 5px #000000;
+    border-radius: 100px;
+    position: absolute;
+    top: 0.3rem;
+    right: 0.5rem;
+}
+/* Akhir percobaan API Ke-2 */
+
+
+
+footer {
+    width: 100%;
+    padding: .8em;
+    text-align: center;
+    border-top: 1px solid rgb(41, 41, 41);
+}
+
+footer p {
+    font-size: .8em;
+    color: rgb(84, 84, 84);
+}
+
+footer p a {
+    color: rgb(157, 157, 157);
+}

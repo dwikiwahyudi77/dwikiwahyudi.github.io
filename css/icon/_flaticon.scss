@@ -1,0 +1,80 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 12/08/2020 06:59
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-facebook:before { content: "\f100"; }
+.flaticon-email:before { content: "\f101"; }
+.flaticon-right-arrow:before { content: "\f102"; }
+.flaticon-twitter:before { content: "\f103"; }
+.flaticon-phone:before { content: "\f104"; }
+.flaticon-black-circle:before { content: "\f105"; }
+.flaticon-remove:before { content: "\f106"; }
+.flaticon-remove-1:before { content: "\f107"; }
+.flaticon-heart-shape-outline:before { content: "\f108"; }
+.flaticon-like:before { content: "\f109"; }
+.flaticon-bag:before { content: "\f10a"; }
+.flaticon-thunder:before { content: "\f10b"; }
+.flaticon-visibility:before { content: "\f10c"; }
+.flaticon-bookmark:before { content: "\f10d"; }
+.flaticon-user:before { content: "\f10e"; }
+.flaticon-magnifiying-glass:before { content: "\f10f"; }
+.flaticon-microphone:before { content: "\f110"; }
+.flaticon-right:before { content: "\f111"; }
+.flaticon-controls:before { content: "\f112"; }
+.flaticon-star:before { content: "\f113"; }
+    
+    $font-Flaticon-facebook: "\f100";
+    $font-Flaticon-email: "\f101";
+    $font-Flaticon-right-arrow: "\f102";
+    $font-Flaticon-twitter: "\f103";
+    $font-Flaticon-phone: "\f104";
+    $font-Flaticon-black-circle: "\f105";
+    $font-Flaticon-remove: "\f106";
+    $font-Flaticon-remove-1: "\f107";
+    $font-Flaticon-heart-shape-outline: "\f108";
+    $font-Flaticon-like: "\f109";
+    $font-Flaticon-bag: "\f10a";
+    $font-Flaticon-thunder: "\f10b";
+    $font-Flaticon-visibility: "\f10c";
+    $font-Flaticon-bookmark: "\f10d";
+    $font-Flaticon-user: "\f10e";
+    $font-Flaticon-magnifiying-glass: "\f10f";
+    $font-Flaticon-microphone: "\f110";
+    $font-Flaticon-right: "\f111";
+    $font-Flaticon-controls: "\f112";
+    $font-Flaticon-star: "\f113";

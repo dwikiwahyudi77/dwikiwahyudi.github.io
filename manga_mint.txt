@@ -1,0 +1,151 @@
+Alamat: https://mangamint.kaedenoki.net/api/
+
+Latest Manga:
+- /manga/page/[pagenumber]
+- /manga/page/1
+
+Popular Manga:
+- /manga/popular/[pagenumber]
+- /manga/popular/1
+
+Detail Manga:
+- /manga/detail/[endpoint]
+- /manga/detail/boruto-id
+
+Search By Name:
+- /search/[query]
+- /search/komi%20san
+
+Genre List:
+- /genres
+
+Genre Detail:
+- /genres/[endpoint]/[pagenumber]
+- /genres/action/1
+
+Recommended Manga:
+- /recommended
+
+Manhua List (Chinese):
+- /manhua/[pagenumber]
+- /manhua/1
+
+Manhwa List (korean):
+- /manhwa/[pagenumber]
+- /manhwa/1
+
+Chapter:
+- /chapter/[chapterEndpoint]
+- /chapter/after-transformation-mine-and-her-wild-fantasy-chapter-70-bahasa-indonesia
+
+
+
+--------------------------------------------------------
+
+
+
+Isi API:
+
+Latest Manga:
+- manga_list
+  - chapter
+  - endpoint
+  - thumb
+  - title
+  - type
+  - update_on
+
+
+Popular Manga:
+- manga_list
+  - endpoint
+  - thumb
+  - title
+  - type
+  - upload_on
+
+
+Detail Manga:
+- author/
+- chapter/
+  - chapter_title
+  - chapter_endpoint
+- genre_list/
+  - genre_name
+- manga_endpoint
+- status
+- synopsis/
+- thumb/
+- title/
+- type/
+
+
+Search By Name:
+- manga_list
+  - endpoint
+  - thumb
+  - title
+  - type
+  - update_on
+
+Genre List:
+- list_genre
+  - genre_name
+  - endpoint
+
+Genres Detail:
+- manga_list
+  - endpoint
+  - thumb
+  - title
+  - type
+
+Recommended: 
+- manga_list
+  - endpoint
+  - thumb
+  - title
+
+Manga Chapter: (ok)
+- chapter_endpoint
+- chapter_image
+  - chapter_image_link
+  - image_number
+- chapter_pages
+
+
+Manhua List: 
+- manga_list
+  - chapter
+  - endpoint
+  - thumb
+  - title
+  - type
+  - updated_on
+
+Manhwa List: 
+- manga_list
+  - chapter
+  - endpoint
+  - thumb
+  - title
+  - type
+  - updated_on
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://i0.wp.com/komiku.co.id/wp-content/uploads/Manhua-Shen-Haos-Heavenly-Fall-System.jpg?resize=450,235&quality=60
+
